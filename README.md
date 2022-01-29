@@ -57,3 +57,31 @@ ace | Localisation |
 | LargeurMoyLameEauOperationPrelBio, HMoyLamOperationPrelBio | Largeur/ hauteur a lame d’eau de l’opération de prélèvement biologique |
 | SurfTotProspecteeOperationPrelBio | Surface totale prospectée de l’opération de prélèvement biologique |
 
+* **Resultats_hydrobio_garonne**
+
+| Colonne   |      Description      |
+|-----------|:---------------------:|
+| CdStationMesureEauxSurface, LbStationMesureEauxSurface, CdPointEauxSurf | id station |
+| DateDebutOperationPrelBio | Date début, jointure avec les fichiers Operations |
+| CdSupport, LbSupport | jointure avec les fichiers Operations |
+| DtProdResultatBiologique, HeureResultat | date, heure production du résultat  |
+| CdParametreResultatBiologique, LbLongParametre | résultat ou indice calculé |
+| ResIndiceResultatBiologique | Résultat biologique |
+| CdUniteMesure, SymUniteMesure | Unité de Mesure |
+| CdRqIndiceResultatBiologique, MnemoRqAna | remarque sur le résultat |
+| CdMethEval | méthode d’évaluation du résultat biologique |
+| RefOperationPrelBio | réf prélèvement: jointure avec le fichier Opérations |
+| CdProducteur, NomProducteur | Producteur du prélèvement |
+| CdAccredRsIndiceResultatBiologique, MnAccredRsIndiceResultatBiologique | Information permettant d’indiquer si une analyse a été réalisée dans les conditions d’accréditation (inconnu) |
+
+* **ListesFauneFlore_hydrobio_garonne**
+
+| Colonne   |      Description      |
+|-----------|:---------------------:|
+| CdStationMesureEauxSurface, LbStationMesureEauxSurface, CdPointEauxSurf | id station | 
+| CdSupport, LbSupport | permet de faire une jointure avec le fichier Operations et resultats |
+| DateDebutOperationPrelBio | date début prelevment jointure avec le fichier Operations et resultats |
+| CdListeFauFlor, LbListeFauFlor | la liste faunistique ou floristique |
+| CdTypListeFauFlor, MnTypListeFauFlor | Code Sandre du type de la liste faunistique ou floristique |
+| CdTypTaxRep, MnTypTaxRep, CdAppelTaxon, NomLatinAppelTaxon | type de mesure du taxon répertorié |
+| | |
