@@ -95,4 +95,13 @@ ace | Localisation |
 CdStationMesureEauxSurface, LbStationMesureEauxSurface, CdPointEauxSurf | id station |
 | CdSupport, LbSupport | jointure avec Operations, ResultatsBiologiques et ListesFauneFlore. |
 | DateDebutOperationPrelBio,  | date prélevement jointure avec Operations ResultatsBiologiques et ListesFauneFlore |
-| CdParametreEnv, LbLongParametre | | 
+| CdParametreEnv, LbLongParametre | paramètre environnemental |
+| RsParEnvOpPrelBio | Mesure de la condition environnementale | 
+| CdUniteMesure, SymUniteMesure | Unite de mesure |
+| CdRqParEnvPrelBio, MnemoRqParEnvPrelBio | remarque de la mesure de la condition environnementale |
+| CdMethodeParEnvPrelBio, NomMethodeParEnvPrelBio | méthode de la condition environnementale |
+| RefOperationPrelBio | Référence de l’opération de prélèvement, jointure avec les fichiers Operations ResultatsBiologiques et ListesFauneFlore. |
+| CdStatutParEnvPrelBio, MnStatutParEnvPrelBio | statut de la condition environnementale de l’opération de prélèvement biologique |
+| CdQualParEnvPrelBio, LbQualParEnvPrelBio | la qualification de l’acquisition de la condition environnementale |
+| DateParEnvPrelBio | Date de la mesure de la condition environnementale |
+| CdProducteur, NomProducteur | l’intervenant producteur du prélèvement |
