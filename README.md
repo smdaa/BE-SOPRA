@@ -82,6 +82,17 @@ ace | Localisation |
 | CdSupport, LbSupport | permet de faire une jointure avec le fichier Operations et resultats |
 | DateDebutOperationPrelBio | date début prelevment jointure avec le fichier Operations et resultats |
 | CdListeFauFlor, LbListeFauFlor | la liste faunistique ou floristique |
-| CdTypListeFauFlor, MnTypListeFauFlor | Code Sandre du type de la liste faunistique ou floristique |
-| CdTypTaxRep, MnTypTaxRep, CdAppelTaxon, NomLatinAppelTaxon | type de mesure du taxon répertorié |
-| | |
+| ~~CdTypListeFauFlor~~, ~~MnTypListeFauFlor~~ | Code Sandre du type de la liste faunistique ou floristique |
+| CdTypTaxRep, MnTypTaxRep, CdAppelTaxon, NomLatinAppelTaxon, RsTaxRep, CdRqNbrTaxRep, MnemoRqNbrTaxRep | Taxonomie |
+| CdUniteMesure, SymUniteMesure | UniteMesure |
+| RefOperationPrelBio | Référence de l’opération de prélèvement, jointure avec le fichier Operations et resultats |
+| CdProducteur, NomProducteur | producteur |
+
+* **ConditionsEnvironnementales_physico_garonne**
+* 
+| Colonne   |      Description      |
+|-----------|:---------------------:|
+CdStationMesureEauxSurface, LbStationMesureEauxSurface, CdPointEauxSurf | id station |
+| CdSupport, LbSupport | jointure avec Operations, ResultatsBiologiques et ListesFauneFlore. |
+| DateDebutOperationPrelBio,  | date prélevement jointure avec Operations ResultatsBiologiques et ListesFauneFlore |
+| CdParametreEnv, LbLongParametre | | 
