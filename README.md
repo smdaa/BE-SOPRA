@@ -41,8 +41,19 @@ ace | Localisation |
 
 | Colonne   |      Description      |
 |-----------|:---------------------:|
-
-
-
-
+| CdStationMesureEauxSurface, LbStationMesureEauxSurface, CdPointEauxSurf | id station |
+| CdSupport, LbSupport | jointure avec les fichiersResultatsBiologiques |
+| CdMethode, NomLongMethodePrel | Methode de prélèvement |
+| DateDebutOperationPrelBio, HeureDebutOperationPrelBio, DateFinOperationPrelbio, HeureFinOperationPrelBio | date et heaure, DateDebutOperationPrelBio permet une jointure avec ResultatsBiologiques |
+| CdProducteur, NomProducteur,  | Le producteur représente le maître d’ouvrage, ou le commanditaire de la donnée et prend la responsabilité d’accepter la donnée |
+| CdPreleveur, NomPreleveur | ’intervenant ayant effectué l’opération de prélèvement biologique |
+| CdDeterminateur, NomDeterminateur | l’intervenant ayant réalisé la détermination taxonomique de l’opération de prélèvement biologique |
+| CodeSandreRdd, NomRdd | réseau de mesure de rattachement de l’opération de prélèvemen |
+| CdStatutResBioOperationPrelBio, MnemoStatutResBioOperationPrelBio | statut des résultats de l’opération de prélèvement biologique |
+| CdQualResBioOperationPrelBio, LbQualResBioOperationPrelBio | résultats de l’opération de prélèvement biologique (correcte/ pas correcte) |
+| RefOperationPrelBio,  | Référence de l’opération de prélèvemen |
+| ObjOperationPrelBio | Objectif de l’opération de prélèvement biologique |
+| LongProspecOperationPrelBio | Longueur prospectée de l’opération de prélèvement biologique en mètres |
+| LargeurMoyLameEauOperationPrelBio, HMoyLamOperationPrelBio | Largeur/ hauteur a lame d’eau de l’opération de prélèvement biologique |
+| SurfTotProspecteeOperationPrelBio | Surface totale prospectée de l’opération de prélèvement biologique |
 
