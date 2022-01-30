@@ -58,4 +58,3 @@ glm.out2 = glm(CdQualResBioOperationPrelBio~CdParametreEnv+RsParEnvOpPrelBio
 
 coef(summary(glm.out2))[,'Pr(>|z|)']
 # nothing is statistically significant!
-
